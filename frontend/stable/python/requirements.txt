@@ -1,0 +1,12 @@
+dash
+dash-bootstrap-components
+pandas
+pytest
+flake8
+dash
+dash-bootstrap-components
+pandas
+flake8
+bandit
+pytest  # if you plan to add tests
+gunicorn
