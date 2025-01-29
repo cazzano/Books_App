@@ -1,9 +1,11 @@
 # main_backend.py
+from download import download_bp
 from flask import Flask, jsonify, request, abort
 import sqlite3
 import os
 
 app = Flask(__name__)
+app.register_blueprint(download_bp)
 
 # Database Connection Utility Functions
 def get_db_connection():
